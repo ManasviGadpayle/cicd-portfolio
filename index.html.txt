@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Hello, I'm <span class="highlight">Manasvi Gadpayle</span></h1>
+    <p class="tagline">MBA Student | Business Analytics</p>
+  </header>
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I am a passionate business analytics student exploring the intersection of
+    data, technology, and strategy. This portfolio is deployed automatically
+    using a CI/CD pipeline on AWS EC2.</p>
+  </section>
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Cloud Computing (AWS)</li>
+      <li>Business Analytics</li>
+      <li>Data Visualization</li>
+      <li>SQL & Python</li>
+    </ul>
+  </section>
+  <footer>
+    <p>Deployed with CI/CD using GitHub Actions | 2025</p>
+  </footer>
+</body>
+</html>
